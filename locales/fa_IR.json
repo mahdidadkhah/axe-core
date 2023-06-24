@@ -1039,13 +1039,13 @@
       "fail": "In HTML 5, scope attributes may only be used on table header elements (<th>)"
     },
     "same-caption-summary": {
-      "pass": "Content of summary attribute and <caption> are not duplicated",
-      "fail": "Content of summary attribute and <caption> element are identical",
-      "incomplete": "Unable to determine if <table> element has a caption"
+      "pass": "محتوای تگ summary و <caption> تکراری نیست",
+      "fail": "محتوای تگ summary و <caption> دقیقا یکی است",
+      "incomplete": "امکان تشخیص این که <table> یک عنوان دارد مقدور نیست"
     },
     "scope-value": {
-      "pass": "Scope attribute is used correctly",
-      "fail": "The value of the scope attribute may only be 'row' or 'col'"
+      "pass": "تگ Scope به درستی استفاده  شده است",
+      "fail": "مقدار تگ Scope فقط می تواند 'row' or 'col' باشد"
     },
     "td-has-header": {
       "pass": "All non-empty data cells have table headers",
@@ -1057,14 +1057,14 @@
       "fail": "The headers attribute is not exclusively used to refer to other cells in the table"
     },
     "th-has-data-cells": {
-      "pass": "All table header cells refer to data cells",
-      "fail": "Not all table header cells refer to data cells",
-      "incomplete": "Table data cells are missing or empty"
+      "pass": "تمامی عنوان جدول به سلول‌های داده اشاره می کنند",
+      "fail": "تمامی عنوان جدول به سلول‌های داده اشاره نمی کنند",
+      "incomplete": "سلول‌های دارای داده جدول وجود ندارد یا خالی است."
     },
     "hidden-content": {
-      "pass": "All content on the page has been analyzed.",
-      "fail": "There were problems analyzing the content on this page.",
-      "incomplete": "There is hidden content on the page that was not analyzed. You will need to trigger the display of this content in order to analyze it."
+      "pass": "همه محتوای صفحه آنالیز شده است.",
+      "fail": "برای آنالیز محتوای این صفحه مشکل وجود داشت.",
+      "incomplete": "محتوای مخفی در این صفحه وجود دارد که آنالیز نشد. شما باید محتوا را از حالت مخفی خارج نمایید تا بتوان آن را آنالیز نمود."
     }
   },
   "failureSummaries": {
