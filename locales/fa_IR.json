@@ -857,13 +857,13 @@
       }
     },
     "header-present": {
-      "pass": "Page has a heading",
-      "fail": "Page does not have a heading"
+      "pass": "این صفحه عنوان (heading) دارد",
+      "fail": "این صفحه عنوان (heading) ندارد"
     },
     "heading-order": {
-      "pass": "Heading order valid",
-      "fail": "Heading order invalid",
-      "incomplete": "Unable to determine previous heading"
+      "pass": "ترتیب عناوین (heading) صحیح است",
+      "fail": "ترتیب عناوین (heading) صحیح نیست",
+      "incomplete": "عنوان (heading) قبلی قابل تشخیص نیست"
     },
     "identical-links-same-purpose": {
       "pass": "There are no other links with the same name, that go to a different URL",
@@ -1048,13 +1048,13 @@
       "fail": "مقدار تگ Scope فقط می تواند 'row' or 'col' باشد"
     },
     "td-has-header": {
-      "pass": "All non-empty data cells have table headers",
-      "fail": "Some non-empty data cells do not have table headers"
+      "pass": "تمامی سلول‌های دارای داده جدول هدر(th) دارند",
+      "fail": "برخی از سلول‌های دارای داده جدول هدر(th) ندارند"
     },
     "td-headers-attr": {
-      "pass": "The headers attribute is exclusively used to refer to other cells in the table",
+      "pass": "ویژگی header به صورت انحصاری برای اشاره به سلول‌ها داده در جدول استفاده شده است.",
       "incomplete": "The headers attribute is empty",
-      "fail": "The headers attribute is not exclusively used to refer to other cells in the table"
+      "fail": "ویژگی header به صورت انحصاری برای اشاره به سلول‌ها داده در جدول استفاده نشده است."
     },
     "th-has-data-cells": {
       "pass": "تمامی عنوان جدول به سلول‌های داده اشاره می کنند",
