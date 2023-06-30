@@ -1031,12 +1031,12 @@
       "incomplete": "Unable to determine element has a child that is a title"
     },
     "caption-faked": {
-      "pass": "The first row of a table is not used as a caption",
-      "fail": "The first child of the table should be a caption instead of a table cell"
+      "pass": "اولین ردیف جدول برای عنوان استفاده نشده است.",
+      "fail": "اولین ردیف جدول به جای سلول داده، باید عنوان باشد "
     },
     "html5-scope": {
-      "pass": "Scope attribute is only used on table header elements (<th>)",
-      "fail": "In HTML 5, scope attributes may only be used on table header elements (<th>)"
+      "pass": "تگ scope فقط بر روی th استفاده شده است.",
+      "fail": "در HTML5 تگ scope فقط باید بر روی th استفاده شود."
     },
     "same-caption-summary": {
       "pass": "محتوای تگ summary و <caption> تکراری نیست",
